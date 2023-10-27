@@ -1,0 +1,99 @@
+body {
+ background-color: rgba(226,231,255,0.8);
+ color:black;
+ font-family:'Roboto', sans-serif;
+ font-size: 17px;
+ font-weight: lighter;
+}
+h1, h2, h3{
+	font-family: Helvetica;
+	width: 200px;
+    margin: 0 auto;
+	
+}
+
+h1{
+	font-weight: 100;
+	letter-spacing:2px;
+	font-size:30px;     
+}
+h2{
+	font-weight: 100;
+	letter-spacing:1px;
+	font-size:20px
+}
+a{
+	text-decoration:none;
+	color:purple;
+	font-weight: 600;
+	font-size: 16px;
+}
+a:hover{
+color:darkblue;
+font-weight: bold;
+}
+
+/* Custom design with class */
+
+.container {
+width: 700px;
+margin:40px auto;
+}
+
+@media (max-widht:760px) {
+	.container {
+		width: 40px;
+	}
+}
+
+@media (max-widht:500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color:whitesmoke;
+	padding: 60px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+    border-radius: 4px;
+    margin:100px;
+    text-align: center;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: skyblue;
+	color: whitesmoke;
+	padding: 10px 15px;
+	 border-radius: 4px;
+
+}
+
+.btn-blue:hover {
+	background-color: black;
+	color: skyblue;
+}
+
+.list-inline {
+	list-style:none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding:10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: skyblue;
+}
+
+.list-inline i:hover{
+	color: black;
+}
+
+
